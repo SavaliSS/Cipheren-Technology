@@ -1,0 +1,118 @@
+
+
+
+body {
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: repeat; 
+            background-attachment: fixed;
+            margin: 0; 
+            padding: 0; 
+            height: 100vh; 
+            
+            
+            font-family: 'Pacifico', cursive;
+            background-color: rgb(45, 6, 82);
+            
+            
+
+    
+}
+
+header {
+    background-color: aliceblue;
+    color: rgb(45, 6, 82);
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(18, 3, 82);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(60, 40, 150);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d8d6f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 40px auto; 
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1035;
+    color: #fff;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #7FC7D9;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #4CAF50;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section p {
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.icons {
+    width: 35px; 
+    height: auto;
+    border-radius: 10%; 
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+}

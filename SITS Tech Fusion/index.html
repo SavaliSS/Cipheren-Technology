@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITS Tech Fusion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="htpps://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/TechClub_Logo-removebg.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>SITS Tech Fusion</h1>
+            <p>Empowering Tomorrow's Innovators Today <br>Where Tech Meets Talent</p>
+            <a href="" class="hero-btn">Visit to Know More</a>
+
+        </div>
+
+
+    </section>
+
+    <!---------------------- (Upcomming Training)--------------------------->
+
+    <section class="course">
+        <h1>Upcoming Workshops and Training Sessions</h1>
+        <p>
+            Welcome to our dynamic Workshops/Training section! At SITS Tech Fusion, we believe in continuous learning and skill enhancement. Our upcoming workshops and training sessions are carefully curated to empower you with the latest tools, technologies, and insights in the ever-evolving tech landscape.
+        </p>
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>Introduction to Python Programming</h3>
+                <p>
+                    Join us for an immersive workshop where you'll dive into the fundamentals of Python programming. Whether you're a beginner looking to kickstart your coding journey or an experienced developer wanting to add Python to your skill set, this workshop is designed for you. Our seasoned instructors will cover the basics, guide you through hands-on exercises, and provide valuable tips to master Python programming.
+                </p>
+                <div class="button-container">
+                    <a href="" class="hero-btn red-btn register-btn">Register</a>
+                </div>
+            </div>
+    
+            <div class="course-col">
+                <h3>Web Development Bootcamp</h3>
+                <p>
+                    Embark on a comprehensive Web Development Bootcamp designed to equip you with the skills needed to build responsive and interactive websites. From HTML and CSS fundamentals to JavaScript and beyond, our trainers will guide you through each step, ensuring you gain practical experience and confidence in web development.
+                </p>
+                <br><br><br><br>
+                <div class="button-container">
+                    <a href="" class="hero-btn red-btn register-btn">Register</a>
+                </div>
+            </div>
+    
+            <div class="course-col">
+                <h3>Cybersecurity Essentials</h3>
+                <p>
+                    In an increasingly digital world, cybersecurity is paramount. Join our Cybersecurity Essentials workshop to understand the fundamentals of securing digital systems. From encryption basics to threat detection, you'll gain insights into protecting networks and data against evolving cyber threats.
+                </p>
+                <br><br><br><br><br>
+                <div class="button-container">
+                    <a href="" class="hero-btn red-btn register-btn">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------- Testimonials---------------------->
+
+    <section class="testimonials">
+        <h1>What Our Members Says</h1>
+    
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>
+                        Exceptional workshops and events! SITS Tech Fusion has truly enriched my tech journey, offering valuable insights and fostering a sense of community.                    </p>
+                    <h3>Alina Sanon</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+    
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>
+                        Kudos to SITS Tech Fusion for creating a space where learning meets fun. The diverse range of activities has made my college experience truly memorable.                    </p>
+                    <h3>Marlon Smith</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-------------- Call To Action ---------->
+
+    <section class="cta">
+        <h2>Unlock your potential and join the journey of innovation with<br> SITS Tech Fusion <br> Where passion meets technology!</h2>
+        <a href="" class="hero-btn">Join our Club</a>
+    </section>
+
+
+    <!---------------------- Footer ------------------->
+
+    <section class="footer">
+        <h4>About US</h4>
+        <p>From humble beginnings to a thriving tech community, witness the evolution of SITS Tech Fusion <br> Connecting, Innovating, and Transforming since 2010.
+
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Savali Shigawan</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        
+        //Javascript for Toggle Menu
+        var navLinks = document.getElementsById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
+
+<!-- 53:42 -->
